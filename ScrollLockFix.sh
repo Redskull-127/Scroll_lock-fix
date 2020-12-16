@@ -1,0 +1,18 @@
+#"xmodmap -e 'add mod3 = Scroll_Lock'"
+clear
+echo -n "Do You Want To Start ? y/n : "
+read option
+
+if [[ $option == "y" ]]
+then
+    echo "Please Wait Running Script............................................"
+    sudo xmodmap -e 'add mod3 = Scroll_Lock'
+    echo "//////////////////////////////////////////////////////////////////////"
+    echo "Credits 127.0.0.1"
+    echo "//////////////////////////////////////////////////////////////////////"
+else 
+    echo "Exitting.........."
+    echo "//////////////////////////////////////////////////////////////////////"
+    echo "Credits 127.0.0.1"
+    echo "//////////////////////////////////////////////////////////////////////"
+fi  
