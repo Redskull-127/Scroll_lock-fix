@@ -19,7 +19,7 @@
 # step 1 : open terminal and type   cd Scroll_lock-fix
 
 
-# step 2 : type   sudo bash ScrollLockFix0.1.sh
+# step 2 : type   sudo bash ScrollLockv1.sh
 
 
 # step 3 : enter your choice it will fix the problem
